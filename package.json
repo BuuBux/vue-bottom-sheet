@@ -1,12 +1,12 @@
 {
   "name": "@buubux/vue-bottom-sheet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "scripts": {
     "dev": "vite --config vite-demo.config.ts serve --host 0.0.0.0",
-    "build-lib": "rimraf dist &&  vite build",
-    "build-demo": "rimraf dist &&  vite build --config vite-demo.config.ts",
-    "deploy": "rimraf dist && vite build && npm publish --access=public",
+    "build-lib": "rimraf dist && vite build",
+    "build-demo": "rimraf dist && vite build --config vite-demo.config.ts",
+    "lib-deploy": "rimraf dist && vite build && npm publish --access=public",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },

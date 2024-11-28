@@ -40,9 +40,7 @@
             v-model="canSwipe"
             checked
           />
-          <label class="form-check-label" for="canSwipe"
-          >Enable swipe to close</label
-          >
+          <label class="form-check-label" for="canSwipe">Enable swipe to close</label>
         </div>
       </div>
       <div class="col-md-4 col-12">
@@ -158,18 +156,27 @@ import 'vue3-colorpicker/style.css'
 import { ref } from 'vue'
 import VueBottomSheet from '@/VueBottomSheet.vue'
 
+interface ExposedFunctions {
+  open: () => Promise<void>,
+  close: () => void
+}
+
 const overlay = ref(true)
 const maxWidth = ref(640)
 const maxHeight = ref(640)
 const clickToClose = ref(true)
 const overlayColorSelect = ref('#0000004D')
 const canSwipe = ref(true)
-const myBottomSheet = ref(null)
+const myBottomSheet = ref<ExposedFunctions | null>(null)
 
 const open = () => {
+  if (!myBottomSheet.value) return
+
   myBottomSheet.value.open()
 }
 const close = () => {
+  if (!myBottomSheet.value) return
+
   myBottomSheet.value.close()
 }
 </script>
