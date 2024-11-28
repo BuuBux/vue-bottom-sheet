@@ -1,9 +1,6 @@
 ![Example](https://bs.vaban.ru/logo.jpg)
 
-# Vue Bottom Sheet 
-![Size](https://img.shields.io/bundlephobia/minzip/@webzlodimir/vue-bottom-sheet)
-![Downloads](https://img.shields.io/npm/dt/@webzlodimir/vue-bottom-sheet)
-![Version](https://img.shields.io/npm/v/@webzlodimir/vue-bottom-sheet)
+# Vue Bottom Sheet - Forked from 
 
 A nice clean and touch-friendly bottom sheet component based on [Vue.js](https://vuejs.org/) and [hammer.js](https://hammerjs.github.io/) for Vue 3
 
@@ -15,13 +12,19 @@ A nice clean and touch-friendly bottom sheet component based on [Vue.js](https:/
 ### NPM
 
 ```
-npm install @webzlodimir/vue-bottom-sheet
+npm install @buubux/vue-bottom-sheet
 ```
 
 ### Yarn
 
 ```
-yarn add @webzlodimir/vue-bottom-sheet
+yarn add @buubux/vue-bottom-sheet
+```
+
+### PNPM
+
+```
+pnpm add @buubux/vue-bottom-sheet
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 {
-  "name": "@webzlodimir/vue-bottom-sheet",
-  "version": "3.0.5",
+  "name": "@buubux/vue-bottom-sheet",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "dev": "vite --config vite-demo.config.ts serve --host 0.0.0.0",
