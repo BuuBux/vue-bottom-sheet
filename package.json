@@ -1,6 +1,6 @@
 {
-  "name": "@webzlodimir/vue-bottom-sheet",
-  "version": "3.0.5",
+  "name": "@buubux/vue-bottom-sheet",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "dev": "vite --config vite-demo.config.ts serve --host 0.0.0.0",
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vaban-ru/vue-bottom-sheet.git"
+    "url": "git+https://github.com/BuuBux/vue-bottom-sheet.git"
   },
   "keywords": [
     "vue",
@@ -61,10 +61,10 @@
     "component",
     "bottom-sheet"
   ],
-  "author": "vaban-ru",
+  "author": "buubux",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vaban-ru/vue-bottom-sheet/issues"
+    "url": "https://github.com/BuuBux/vue-bottom-sheet/issues"
   },
-  "homepage": "https://github.com/vaban-ru/vue-bottom-sheet#readme"
+  "homepage": "https://github.com/BuuBux/vue-bottom-sheet#readme"
 }
