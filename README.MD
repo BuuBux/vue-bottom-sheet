@@ -1,6 +1,4 @@
-![Example](https://bs.vaban.ru/logo.jpg)
-
-# Vue Bottom Sheet - Forked from 
+# Vue Bottom Sheet - Forked from [vaban-ru/vue-bottom-sheet](https://github.com/vaban-ru/vue-bottom-sheet)
 
 A nice clean and touch-friendly bottom sheet component based on [Vue.js](https://vuejs.org/) and [hammer.js](https://hammerjs.github.io/) for Vue 3
 
